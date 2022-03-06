@@ -1,21 +1,20 @@
 import React, { useState } from "react";
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import { Header } from "./components/Header";
+import { Home } from "./components/Home";
+import { Works } from "./components/Works";
 import "./styles.css";
 
 export const App = () => {  
     return (
-      <>
-        <div className="header">
-            <h1 className="header-logo">KEISUKE's PORTFOLIO</h1>
-            <nav>
-                <ul>
-                    <li><a href="">HOME</a></li>
-                    <li><a href="">WORKS</a></li>
-                    <li><a href="">CONTACT</a></li>
-                </ul>
-            </nav>
-        </div>
-        <div class="main-content">
-        </div>
-      </>
+        <>
+            <BrowserRouter>
+                <Header />
+                <Routes>
+                    <Route index element={<Home />} />
+                    <Route path="works" element={<Works />} />
+                </Routes>
+            </BrowserRouter>
+        </>
     );
-  };
+};

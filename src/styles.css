@@ -54,3 +54,10 @@ h2 {
     font-weight: normal;
     color: #fff;
 }
+
+.works-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
