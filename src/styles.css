@@ -61,3 +61,33 @@ h2 {
     align-items: center;
     height: 100vh;
 }
+
+.contact-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.introduce-wrapper {
+    background-color: rgba(255,255,255, 0.5);
+    display: flex;
+    justify-content: center;
+    width: 60%;
+}
+
+.image {
+    height: 400px;
+    width: auto;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.introduce-content {
+    margin: auto;
+    width: 40%;
+}
+
+.contact-name {
+    color: #6868ab;
+}
