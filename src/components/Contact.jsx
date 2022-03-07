@@ -4,7 +4,7 @@ export const Contact = () => {
   return (
     <>
         <div className="contact-content">
-            <h1><a className="contact-name" href="https://www.wantedly.com/id/keisuke90">Wantedly</a></h1>
+            <h1><a className="contact-name button" href="https://www.wantedly.com/id/keisuke90">Wantedly</a></h1>
         </div>
     </>
   );

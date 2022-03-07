@@ -91,3 +91,23 @@ h2 {
 .contact-name {
     color: #6868ab;
 }
+
+.skill-wrapper {
+    height: 100vh;
+}
+
+.skill-box {
+    background-color: #fff;
+}
+
+.button {
+    margin: auto;
+    background-color: #fff;
+    padding: 20px 40px;
+    border-radius: 50px;
+}
+
+.button:hover {
+    background-color: blue;
+    color: white;
+}
