@@ -92,12 +92,39 @@ h2 {
     color: #6868ab;
 }
 
-.skill-wrapper {
+.skill {
     height: 100vh;
+    position: relative;
+}
+
+.skill-wrapper {
+    background-color: #fff;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+    height: 50%;
+    width: 60%;
 }
 
 .skill-box {
-    background-color: #fff;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    margin: auto;
+}
+
+.skill-box li {
+    margin: 0;
+    height: auto;
+    font-size: 15px;
+    padding: 10px 20px;
 }
 
 .button {
