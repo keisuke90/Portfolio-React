@@ -76,7 +76,7 @@ h2 {
     width: 60%;
 }
 
-.image {
+.homeimage {
     height: 400px;
     width: auto;
     border-radius: 10px;
@@ -137,4 +137,46 @@ h2 {
 .button:hover {
     background-color: blue;
     color: white;
+}
+
+#overlay {
+    /*　画面全体を覆う設定　*/
+  position:fixed;
+  top:0;
+  left:0;
+  width:100%;
+  height:100%;
+  background-color:rgba(0,0,0,0.5);
+
+  /*　画面の中央に要素を表示させる設定　*/
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#content{
+    z-index:2;
+    width:50%;
+    padding: 20px;
+    background:#fff;
+    border-radius: 5px;
+}
+
+#content a {
+    color: black;
+}
+
+.work {
+    height: 300px;
+    width: 300px;
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 30px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.workimage {
+    width: 90%;
+    margin: 10px;
 }

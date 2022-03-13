@@ -1,12 +1,12 @@
 import React from "react";
-import Pic from "../images/picture.JPG"
+import Pic from "../images/picture.jpeg"
 
 export const Home = () => {
   return (
     <>
         <div className="main-content">
             <div className="introduce-wrapper">
-                <img className="image" src={Pic} alt="Image" />
+                <img className="homeimage" src={Pic} alt="homeimage" />
                 <div className="introduce-content">
                     <p>桑原 佳佑（くわはら けいすけ）</p>
                     <p>年齢:29歳</p>
