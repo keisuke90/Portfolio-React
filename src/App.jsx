@@ -12,7 +12,7 @@ export const App = () => {
             <BrowserRouter>
                 <Header />
                 <Routes>
-                    <Route index element={<Home />} />
+                    <Route path="Portfolio-React" element={<Home />} />
                     <Route path="works" element={<Works />} />
                     <Route path="contact" element={<Contact />} />
                 </Routes>
